@@ -7,11 +7,12 @@
     "eslint:recommended",
     "plugin:@typescript-eslint/recommended",
     "plugin:@typescript-eslint/recommended-requiring-type-checking",
-    "plugin:react/recommended",
     "standard-with-typescript",
     "plugin:jsx-a11y/recommended",
+    "plugin:react/recommended",
     "plugin:react/jsx-runtime",
-    "plugin:react-hooks/recommended"
+    "plugin:react-hooks/recommended",
+    "prettier"
   ],
   "overrides": [
     {
@@ -35,6 +36,15 @@
         "blankLine": "always",
         "prev": "*",
         "next": "return"
+      }
+    ],
+    "react/jsx-boolean-value": "error",
+    "react/jsx-curly-brace-presence": "error",
+    "react/self-closing-comp": [
+      "error",
+      {
+        "component": true,
+        "html": true
       }
     ],
     "@typescript-eslint/consistent-type-definitions": "off",
