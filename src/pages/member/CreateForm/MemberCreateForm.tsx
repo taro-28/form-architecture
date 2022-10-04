@@ -4,7 +4,7 @@ import { MemberCreateFormEmailInput } from './EmailInput';
 import { MemberCreateFormGenderRadio } from './GenderRadio';
 import { MemberCreateFormNameInput } from './NameInput';
 import { MemberCreateFormNationalitySelect } from './NationalitySelect';
-import { useMemberCreateForm } from './hooks';
+import { useMemberCreateForm } from './useMemberCreateForm';
 
 export const MemberCreateForm: FC = memo(() => {
   const { submit } = useMemberCreateForm();

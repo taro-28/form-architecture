@@ -1,6 +1,6 @@
 import { FC, memo } from 'react';
 import { Text } from '@chakra-ui/react';
-import { useMemberCreateForm } from './hooks';
+import { useMemberCreateForm } from './useMemberCreateForm';
 
 export const MemberCreateFormNationalitySelect: FC = memo(() => {
   const { NationalitySelect, NationalitySelectOptionAndLabels } =

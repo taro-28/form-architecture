@@ -1,14 +1,12 @@
-import { Suspense } from "react";
-import { MemberCreateForm } from "./pages/member/CreateForm";
+import { FC } from 'react';
+import { MemberCreateForm } from './pages/member/CreateForm';
 
-function App() {
+const App: FC = () => {
   return (
     <div>
-      <Suspense fallback={<>Loading...</>}>
-        <MemberCreateForm />
-      </Suspense>
+      <MemberCreateForm />
     </div>
   );
-}
+};
 
 export default App;
