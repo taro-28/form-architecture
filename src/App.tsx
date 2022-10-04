@@ -1,5 +1,5 @@
 import { FC } from 'react';
-import { MemberCreateForm } from './pages/member/CreateForm';
+import { MemberCreateForm } from './models/Member/CreateForm';
 
 const App: FC = () => {
   return (
